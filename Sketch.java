@@ -22,6 +22,7 @@ public class Sketch extends PApplet {
 
   public void draw() {  
 
+    // this determines the color of the background based on randomized position of the sun
     if (randomSunPositionY <= 125){
       background(137,207,240);
     } 
